@@ -3,6 +3,6 @@ led = pyb.LED(1)
 while True:
   led.on()
   pyb.delay(500)
-  lcd.off()
+  led.off(0
   pyb.delay(500)
   
